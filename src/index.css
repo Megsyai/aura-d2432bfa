@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 20% 98%; /* Creamy White */
+    --foreground: 20 10% 10%;
+    --card: 30 20% 97%;
+    --card-foreground: 20 10% 10%;
+    --popover: 30 20% 98%;
+    --popover-foreground: 20 10% 10%;
+    --primary: 25 30% 20%; /* Deep Earthy Umber */
+    --primary-foreground: 30 20% 98%;
+    --secondary: 35 30% 85%; /* Soft Sand */
+    --secondary-foreground: 25 30% 20%;
+    --muted: 35 10% 90%;
+    --muted-foreground: 25 10% 40%;
+    --accent: 25 40% 92%;
+    --accent-foreground: 25 30% 20%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 25 10% 85%;
+    --input: 25 10% 85%;
+    --ring: 25 30% 20%;
+    --radius: 0rem; /* Sharp Editorial Look */
+  }
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.aura-gradient {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(245,240,235,1) 100%);
+}
